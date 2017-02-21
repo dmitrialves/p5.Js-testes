@@ -20,7 +20,7 @@ function Bubble(x_, y_) {
     if (this.x + this.diam / 2 >= width || this.x - this.diam / 2 <= 0 ||
       this.y + this.diam / 2 >= height || this.y - this.diam / 2 <= 0) {
       bubbles.splice(i, 1);
-      bubbles.push(new Bubble(random(width), random(height)));
+      bubbles.push(new Bubble(width/2, height/2));
     }
   }
 
