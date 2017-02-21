@@ -7,7 +7,7 @@ function setup() {
   createCanvas(500, 500);
   background(0);
   for (var i = 0; i < numpontos; i++) {
-    pontos[i] = new ponto(floor(random(0, width)), floor(random(0, height)), 5, velocidade);
+    pontos[i] = new ponto(floor(random(0, width)), floor(random(0, height)), random(2,10), velocidade);
   }
 }
 
