@@ -4,7 +4,7 @@ var novojogo = false;
 var desenha = false;
 var posbotao = [];
 var raiobotao = 20;
-var lado = 5;
+var lado = 10;
 var vidas = 25;
 var button;
 var soma = 0;
