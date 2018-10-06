@@ -1,7 +1,7 @@
 var d;
 var intervalo;
 var h, m, s, dia;
-var cmp_pt = 115;
+var cmp_pt = 100;
 var raio_rel = 140;
 
 function setup() {
