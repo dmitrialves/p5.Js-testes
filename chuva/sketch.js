@@ -2,7 +2,7 @@ var pingos = [];
 
 function setup() {
   createCanvas(600, 400);
-  for (var i = 0; i < 800; i++) {
+  for (var i = 0; i < 1500; i++) {
     pingos[i] = new pingo(random(width), random(-500, -50));
   }
 }
