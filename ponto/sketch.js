@@ -1,7 +1,7 @@
 var pontos = [];
-var numpontos = 700;
-var raio = 3;
-var velocidade = 5;
+var numpontos = 500;
+var raio = 5;
+var velocidade = 10;
 
 function setup() {
   createCanvas(500, 500);
