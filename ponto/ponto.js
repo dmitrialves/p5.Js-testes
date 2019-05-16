@@ -7,7 +7,7 @@ ponto = function(x, y, r, v) {
 
   this.desenha = function() {
     this.dis = dist(this.pos.x, this.pos.y, mouseX, mouseY);
-    this.col = map(this.dis, 0, width/2, 0, 360);
+    this.col = map(this.dis, 0, width/2, 0, 359);
     noStroke();
     colorMode(HSB);
     fill(this.col, 255, 255, 0.4);
